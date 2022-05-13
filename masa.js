@@ -1,17 +1,17 @@
 var segTree = new Vue({
   el: '#segTree',
   data: {
-    typeOfSegmentTree: 'sum',
-    operationName: "sum",
+    typeOfSegmentTree: '=>',
+    operationName: "=>",
     monoidList: monoidList,
     n: 4,
     size: 4, //nを2のべき乗にならした数
     rowSize: 3,
-    arr: '1 2 3 4',
+    arr: '1 0 1 1',
     l: 1, r: 3,
-    res: 3,
+    res: 1,
     i: 2, x: 2,
-    values: [0, 10, 3, 7, 1, 2, 3, 4],
+    values: [0, 1, 0, 1, 1, 0, 1, 1],
     names: [[''], ['1~4'], ['1~2'], ['3~4'], ['1'], ['2'], ['3'], ['4']],
     selected: [false, false, false, false, false, false, false, false],
     DELAY: 600
